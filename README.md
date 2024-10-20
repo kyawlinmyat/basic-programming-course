@@ -1,30 +1,53 @@
 # Basic Programming Course
 
-Contents
+###  [Introductions](./introductions)
 
-[Introductions](./introductions)
+[1. What is a computer?](./introductions/what_is_computer.md)
+[2. Computer revolutions.](./introductions/computer_revolution.md)
+[3. What is a programming?](./introductions/what_is_programming.md)
 
-1. What is computer?
-2. Computer revolutions.
-3. What is programming?
+###  [Preparation](./installations)
 
-Installation Nodejs and Mysql
+[1. Install Nodejs](./installations/install_nodejs.md)
+[2. Install Mysql](./installations/install_mysql.md)
 
-Programming
+###  [Programming](./programming/)
+1. Data types, Conditions and Operators, Javascript Keywords
+   - Data types
+   - Conditions and operators
+   - Javascript Keywords
+2. Functions, Class and Objects
+   - Functions
+   - Class and Objects
 
-1. Data types
-2. Conditions and operators
-3. OOP
+###  [Database](./)
+1. Relational Database
+    - Create, Update, Retrieve and Delete records
+    - Joining Tables
 
-Database
-
-Algorithms
+###  [Algorithms](./)
 
 1. Sorting
 2. Search
 
-Projects
+###  [Projects](./)
 
-    Project one (With supervisor)
+#### Project one (With supervisor)        
+1. Creating Simple Web Pages
+    - HTML (Hyper Text Markup Language)
+    - First your web page.
+    - Styling a webpage.
 
-    Project two (Team)
+2. Creating a Web application using NodeJs
+    2.1 Explaination of application structure.
+    2.2 Create a web application.
+    2.3 Connect with database
+
+#### Project two (Team)
+##### Student Management System
+1. Register students
+2. Create a exam
+3. Add/update scores of students in the exam
+4. Export student result
+
+ 
