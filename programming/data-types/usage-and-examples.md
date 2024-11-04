@@ -4,28 +4,28 @@
    **javascript**
 
 ```
-   letage = 25; // Integer
+   let age = 25; // Integer
 ```
 
 1. **Floating Point (float)** : Numbers that have decimal points.
    **javascript**
 
 ```
-   letprice = 19.99; // Floating Point
+   let price = 19.99; // Floating Point
 ```
 
 1. **String** : A sequence of characters, used for text.
    **javascript**
 
 ```
-   letname = "Alice"; // String
+   let name = "Alice"; // String
 ```
 
 1. **Boolean** : Represents true or false values.
    **javascript**
 
 ```
-   letisStudent = true; // Boolean
+   let isStudent = true; // Boolean
 ```
 
 1. **Character (char)** : A single character (used in some languages like C).
@@ -41,14 +41,14 @@
    **javascript**
 
 ```
-   letscores = [85, 90, 92]; // Array
+   let scores = [85, 90, 92]; // Array
 ```
 
 1. **Object** : A collection of key-value pairs (often used in JavaScript).
    **javascript**
 
 ```
-   letperson = {
+   let person = {
        name: "Bob",
        age: 30
    }; // Object
@@ -77,7 +77,7 @@ Here’s a summary table: Ready to dive into how these are used in real programs
 ### Example
 
 // Define an object to store student information
-let student = {
+let  student = {
     name: "Alice",
     age: 20,
     scores: [85, 90, 92]
@@ -85,13 +85,13 @@ let student = {
 
 // Define a function to calculate the average score
 function calculateAverage(scores) {
-    let total = 0;
-    for(let i = 0; i < scores.length; i++) {
+    let  total = 0;
+    for(let  i = 0; i < scores.length; i++) {
         total += scores[i];
     }
     return total / scores.length;
 }
 
 // Calculate and display the student's average score
-let averageScore = calculateAverage(student.scores);
+let  averageScore = calculateAverage(student.scores);
 console.log(student.name + "'s average score is: " + averageScore); // Outputs: Alice's average score is: 89
